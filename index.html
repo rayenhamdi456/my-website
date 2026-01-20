@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Rayen Digital</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:linear-gradient(120deg,#0f2027,#203a43,#2c5364);
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+.box{
+  background:rgba(0,0,0,0.85);
+  padding:30px;
+  border-radius:20px;
+  width:360px;
+  text-align:center;
+  box-shadow:0 0 30px black;
+}
+
+/* LOGO */
+.logo-img{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #00ffcc;
+  margin-bottom:10px;
+}
+
+/* FORM */
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+
+button{
+  width:100%;
+  padding:12px;
+  background:#00ffcc;
+  border:none;
+  border-radius:8px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+/* SOCIAL UNDER BUTTON */
+.social-under{
+  text-align:right;
+  margin-top:10px;
+  
+  justify-content:center;
+  gap:10px;
+}
+
+.social-under img{
+  
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  transition:0.3s;
+}
+
+.social-under img:hover{
+  transform:scale(1.2);
+}
+
+/* STORE */
+.store{
+  margin-top:20px;
+  background:#111;
+  padding:15px;
+  border-radius:10px;
+}
+
+.product{
+  background:#222;
+  padding:10px;
+  border-radius:8px;
+  margin-bottom:10px;
+}
+
+.buy{
+  display:block;
+  background:#00ffcc;
+  color:black;
+  padding:8px;
+  text-decoration:none;
+  border-radius:6px;
+  margin-top:5px;
+}
+
+.contact{
+  margin-top:15px;
+  font-size:14px;
+  opacity:0.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+  <!-- LOGO -->
+  <img src="logo.jpeg" class="logo-img">
+
+  <p>Web • Design • Services</p>
+
+  <!-- FORM -->
+  <form action="https://formspree.io/f/xaqqqwzk" method="POST">
+    <input type="text" name="nom" placeholder="Nom" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Votre message" required></textarea>
+
+    <button type="submit">Envoyé</button>
+
+    <!-- SOCIAL BUTTONS -->
+    <div class="social-under">
+      <a href="https://instagram.com/xx___ra___yen____xx" target="_blank">
+        <img src="ins.jpg">
+      </a>
+
+      <a href="https://wa.me/21692363768" target="_blank">
+        <img src="wts.png">
+      </a>
+    </div>
+  </form>
+
+
+
+</div>
+
+</body>
+</html>
