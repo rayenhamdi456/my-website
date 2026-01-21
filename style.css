@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial;
+  margin: 0;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+/* FORM */
+input,textarea{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border-radius:8px;
+  border:none;
+  outline:none;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #00ffcc;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00ccaa;
+}
+
+.social {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social img {
+  width: 30px;
+}
+
+.ads {
+  background: #111;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Animation */
+.animate {
+  animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+  from {opacity:0; transform: translateY(30px);}
+  to {opacity:1; transform: translateY(0);}
+}
